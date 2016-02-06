@@ -2,6 +2,8 @@
 
 This is a fork of https://github.com/djchen/oauth2-fitbit for the purposes of having a non dev version available for composer install.
 
+https://packagist.org/packages/hwd/oauth2-fitbit
+
 This package provides Fitbit OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 This package is compliant with [PSR-1][], [PSR-2][], [PSR-4][], and [PSR-7][]. If you notice compliance oversights, please send a patch via pull request.
