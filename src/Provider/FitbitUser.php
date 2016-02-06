@@ -1,6 +1,6 @@
 <?php
 
-namespace djchen\OAuth2\Client\Provider;
+namespace hwd\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 

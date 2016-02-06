@@ -1,5 +1,5 @@
 {
-    "name": "djchen/oauth2-fitbit",
+    "name": "hwd/oauth2-fitbit",
     "description": "Fitbit OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
@@ -7,6 +7,11 @@
             "name": "Dan Chen",
             "email": "dan@djc.me",
             "homepage": "https://www.djc.me"
+        },
+        {
+            "name": "Bradford Knowlton",
+            "email": "brad@healthywebdeveloper.com",
+            "homepage": "http://healthywebdeveloper.com/"
         }
     ],
     "keywords": [
@@ -28,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "djchen\\OAuth2\\Client\\": "src/"
+            "hwd\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "djchen\\OAuth2\\Client\\Test\\": "tests/src/"
+            "hwd\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     }
 }

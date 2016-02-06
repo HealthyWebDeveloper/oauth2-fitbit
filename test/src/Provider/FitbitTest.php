@@ -1,9 +1,9 @@
 <?php
 
-namespace djchen\OAuth2\Client\Test\Provider;
+namespace hwd\OAuth2\Client\Test\Provider;
 
 use Mockery as m;
-use djchen\OAuth2\Client\Provider\Fitbit;
+use hwd\OAuth2\Client\Provider\Fitbit;
 
 class FitbitTest extends \PHPUnit_Framework_TestCase
 {

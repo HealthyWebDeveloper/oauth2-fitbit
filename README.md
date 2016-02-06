@@ -1,5 +1,7 @@
 # Fitbit Provider for OAuth 2.0 Client
 
+This is a fork of https://github.com/djchen/oauth2-fitbit for the purposes of having a non dev version available for composer install.
+
 This package provides Fitbit OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 This package is compliant with [PSR-1][], [PSR-2][], [PSR-4][], and [PSR-7][]. If you notice compliance oversights, please send a patch via pull request.
@@ -18,7 +20,7 @@ The following versions of PHP are supported.
 To install, use composer:
 
 ```
-composer require djchen/oauth2-fitbit
+composer require hwd/oauth2-fitbit
 ```
 
 ## Usage
@@ -26,7 +28,7 @@ composer require djchen/oauth2-fitbit
 ### Authorization Code Grant
 
 ```php
-$provider = new djchen\OAuth2\Client\Provider\Fitbit([
+$provider = new hwd\OAuth2\Client\Provider\Fitbit([
     'clientId'          => '{fitbit-oauth2-client-id}',
     'clientSecret'      => '{fitbit-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url'
@@ -103,7 +105,7 @@ if (!isset($_GET['code'])) {
 Once your application is authorized, you can refresh an expired token using a refresh token rather than going through the entire process of obtaining a brand new token. To do so, simply reuse this refresh token from your data store to request a refresh.
 
 ```php
-$provider = new djchen\OAuth2\Client\Provider\Fitbit([
+$provider = new hwd\OAuth2\Client\Provider\Fitbit([
     'clientId'          => '{fitbit-oauth2-client-id}',
     'clientSecret'      => '{fitbit-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url'
